@@ -472,7 +472,7 @@ The bot now validates your configuration before starting. If you see validation 
 
 ## 📚 Resources & Documentation
 
-### Documentation
+### Bot Documentation
 - **[docs/README.md](docs/README.md)** - Documentation index and navigation
 - **[docs/GETTING_STARTED.md](docs/GETTING_STARTED.md)** - Quick start guide (5 minutes)
 - **[docs/CONFIGURATION.md](docs/CONFIGURATION.md)** - Complete configuration guide
@@ -480,10 +480,23 @@ The bot now validates your configuration before starting. If you see validation 
 - **[docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)** - Common issues and solutions
 - **[CHANGELOG.md](CHANGELOG.md)** - Detailed changelog of all improvements
 
+### 📖 Polymarket Developer Guide (NEW!)
+**Comprehensive documentation for building trading bots on Polymarket:**
+- **[Polymarket Developer Guide](docs/polymarket-developer-guide/README.md)** - Complete guide index
+- **[Authentication Guide](docs/polymarket-developer-guide/01-authentication.md)** - Wallet setup and API credentials
+- **[Quick Start](docs/polymarket-developer-guide/02-quickstart.md)** - Build your first bot in 5 minutes
+- **[Market Types & Structures](docs/polymarket-developer-guide/03-market-types.md)** - CTF, NEG_RISK, binary markets
+- **[Trading & Orders](docs/polymarket-developer-guide/06-trading-orders.md)** - Order types, execution, fees
+- **[Bot Development Strategies](docs/polymarket-developer-guide/07-bot-strategies.md)** - Arbitrage, market making, more
+- **[Resources & Glossary](docs/polymarket-developer-guide/11-resources.md)** - Quick reference and terminology
+
+> 🤖 **Perfect for AI Assistants**: This comprehensive guide provides all the information needed to create Polymarket trading bots!
+
 ### External Resources
 - [Polymarket](https://polymarket.com/)
 - [BTC 15min Markets](https://polymarket.com/crypto/15M)
 - [py-clob-client documentation](https://github.com/Polymarket/py-clob-client)
+- [Polymarket Official Docs](https://docs.polymarket.com/developers)
 
 ### Utilities
 - `python -m src.generate_api_key` - Generate API credentials
